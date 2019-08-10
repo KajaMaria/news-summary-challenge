@@ -1,0 +1,48 @@
+body {
+  background-image: url("images/picture4.jpg");
+}
+
+#root {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.button {
+  display: block;
+  max-width: 300px;
+  margin: auto;
+}
+.card {
+  margin: 1rem;
+  border: 1px solid gray;
+}
+#name {
+  text-align: center;
+  display: block;
+  line-height: 30pt;
+}
+
+@media screen and (min-width: 600px) {
+  .card {
+    flex: 1 1 calc(50% - 2rem);
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .card {
+    flex: 1 1 calc(33% - 2rem);
+  }
+}
+.list-element
